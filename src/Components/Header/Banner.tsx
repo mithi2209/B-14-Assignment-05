@@ -7,10 +7,10 @@ const Banner = () => {
 
     <div className="">
 
-      <div className="container px-2 md:px-0 mx-0 md:mx-auto flex flex-col md:flex-row justify-between items-center pt-14 pb-8 md:pt-20 md:pb-20">
+      <div className="container px-2 md:px-0 mx-0 md:mx-auto flex flex-col md:flex-row justify-between items-center pt-14 pb-0 md:pt-20 md:pb-20">
 
         {/* Banner Left Part */}
-        
+
         <div>
 
           <h1 className="text-center md:text-left font-inter font-bold md:font-extrabold text-3xl md:text-6xl tracking-wide ">
@@ -28,7 +28,7 @@ const Banner = () => {
 
             <button className="font-inter cursor-pointer rounded-lg p-3 text-white text-sm md:text-base font-regular md:font-medium bg-linear-to-r from-[#F97316] to-[#EC4899] hover:bg-[linear-gradient(to_right,#D91B7E,#F97316)]">Explore Technologies</button>
 
-            <button className="font-inter cursor-pointer rounded-lg py-3 px-12 text-[#374151] text-sm md:text-base font-regular md:font-medium border border-[#e5e7ebFF] hover:bg-linear-to-r from-[#F97316] to-[#EC4899] hover:text-white ">Learn More</button>
+            <button className="font-inter text-center cursor-pointer rounded-lg py-3 px-12 text-[#374151] text-sm md:text-base font-regular md:font-medium border border-[#e5e7ebFF] hover:bg-linear-to-r from-[#F97316] to-[#EC4899] hover:text-white ">Learn More</button>
           </div>
 
         </div>

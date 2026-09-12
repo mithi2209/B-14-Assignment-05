@@ -4,7 +4,7 @@
     "name": "React",
     "category": "Frontend",
     "description": "A declarative, component-based JavaScript library for building modern user interfaces.",
-    "icon": "https://cdn.simpleicons.org/react",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa69APySsiZy2SV0GQ2RG-9EMfGDItceooEGRZiLcRW_lr88reLFEOV54&s=10",
     "rating": 4.9,
     "difficulty": "Beginner-Friendly",
     "badge": "Popular"
@@ -14,7 +14,7 @@
     "name": "Vue.js",
     "category": "Frontend",
     "description": "An approachable, performant, and versatile framework for building web user interfaces.",
-    "icon": "https://cdn.simpleicons.org/vuedotjs",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWB6UYyBFdi6TpU5aOLuKM8WZU6rhJxNkiyth3K-2aYxJG1xhyriKSGDQ&s=10",
     "rating": 4.8,
     "difficulty": "Beginner-Friendly",
     "badge": "Versatile"
@@ -24,7 +24,7 @@
     "name": "Svelte",
     "category": "Frontend",
     "description": "Cybernetically enhanced web apps with compile-time reactivity and zero virtual DOM overhead.",
-    "icon": "https://cdn.simpleicons.org/svelte",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVuHWWK9Zijy9DFfuJl5t5AGaQ1xdl9zar1icdYX8L4DtzGLDQufxstMA&s=10",
     "rating": 4.8,
     "difficulty": "Intermediate",
     "badge": "Fast"
@@ -34,7 +34,7 @@
     "name": "Next.js",
     "category": "Frontend",
     "description": "The React framework for full-stack web applications with hybrid static and server rendering.",
-    "icon": "https://cdn.simpleicons.org/nextdotjs",
+    "icon": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/nextjs.png",
     "rating": 4.9,
     "difficulty": "Intermediate",
     "badge": "Popular"
@@ -44,7 +44,7 @@
     "name": "Node.js",
     "category": "Backend",
     "description": "An asynchronous event-driven JavaScript runtime built on Chrome's V8 engine.",
-    "icon": "https://cdn.simpleicons.org/nodedotjs",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5Os0zJwzhfavrr_gjKhCyREZswfpVEvlCUzvE0tZFjBg1FjMs6iUhxhk&s=10",
     "rating": 4.8,
     "difficulty": "Intermediate",
     "badge": "Standard"
@@ -54,7 +54,7 @@
     "name": "PostgreSQL",
     "category": "Database",
     "description": "A powerful, open-source object-relational database system with proven reliability.",
-    "icon": "https://cdn.simpleicons.org/postgresql",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
     "rating": 4.9,
     "difficulty": "Intermediate",
     "badge": "Top SQL"
@@ -64,7 +64,7 @@
     "name": "Redis",
     "category": "Database",
     "description": "In-memory data structure store used as a high-speed database, cache, and message broker.",
-    "icon": "https://cdn.simpleicons.org/redis",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5CCHqxrzlmf8cfFCZoqiyrEI8cmql4DdpF1mEVMSVAVCnhHOKwNURjjs&s=10",
     "rating": 4.8,
     "difficulty": "Intermediate",
     "badge": "Cache"
@@ -74,7 +74,7 @@
     "name": "JavaScript",
     "category": "Language",
     "description": "The versatile, ubiquitous scripting language powering dynamic behavior across the web.",
-    "icon": "https://cdn.simpleicons.org/javascript",
+    "icon": "https://cdn-icons-png.flaticon.com/512/5968/5968292.png",
     "rating": 4.9,
     "difficulty": "Beginner-Friendly",
     "badge": "Ubiquitous"
@@ -84,7 +84,7 @@
     "name": "TypeScript",
     "category": "Language",
     "description": "A strongly typed programming language that builds on JavaScript for robust tooling.",
-    "icon": "https://cdn.simpleicons.org/typescript",
+    "icon": "https://images.icon-icons.com/2415/PNG/512/typescript_original_logo_icon_146317.png",
     "rating": 4.9,
     "difficulty": "Intermediate",
     "badge": "Essential"
@@ -94,7 +94,7 @@
     "name": "Java",
     "category": "Language",
     "description": "A secure, object-oriented programming language designed for portability and scale.",
-    "icon": "https://cdn.simpleicons.org/openjdk",
+    "icon": "https://i.pinimg.com/1200x/e9/94/61/e99461fdd5b3db8bdb3081d8acf5e524.jpg",
     "rating": 4.6,
     "difficulty": "Intermediate",
     "badge": "Robust"
@@ -104,7 +104,7 @@
     "name": "Tailwind CSS",
     "category": "Styling",
     "description": "A utility-first CSS framework packed with classes that can be composed to build custom UI.",
-    "icon": "https://cdn.simpleicons.org/tailwindcss",
+    "icon": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1280px-Tailwind_CSS_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
     "rating": 4.9,
     "difficulty": "Beginner-Friendly",
     "badge": "Modern"
@@ -114,7 +114,7 @@
     "name": "Docker",
     "category": "DevOps",
     "description": "A platform designed to build, share, and run containerized applications reliably.",
-    "icon": "https://cdn.simpleicons.org/docker",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq5Fo4URuvEbb22C8ldUB9iQ8__N2yEW1dZrUwMfvzCA&s",
     "rating": 4.9,
     "difficulty": "Intermediate",
     "badge": "Containers"

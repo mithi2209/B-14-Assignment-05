@@ -31,9 +31,10 @@ const Navbar = () => {
                
                 <div className="gap-2.5 md:gap-5 flex items-center">
 
-                    <button className="bg-transparent border-none shadow-none font-bold md:font-medium text-sm md:text-base font-inter md:font-jakarta text-[#4F545A]">Sign In</button>
+                    <button className="bg-transparent text-center  border-none shadow-none font-bold md:font-medium text-sm md:text-base font-inter md:font-jakarta text-[#4F545A]">Sign In</button>
 
-                    <button className=" font-semibold md:font-medium text-sm md:text-base  font-jakarta text-white rounded-full bg-[#D91B7E] hover:bg-pink-500 border-none py-1 md:py-3 px-2.5 md:px-5" >Sign Up</button>
+                    <button className=" font-semibold md:font-medium text-sm md:text-base 
+                    text-center font-jakarta text-white rounded-full bg-[#D91B7E] hover:bg-pink-500 border-none py-1 md:py-2 px-2.5 md:px-5" >Sign Up</button>
                 </div>
 
 
