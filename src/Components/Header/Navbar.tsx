@@ -8,7 +8,7 @@ const Navbar = () => {
     return (
         <div className="sticky top-0 bg-white">
 
-            <div className="container py-4 md:py-7.5 px-2 md:px-0 mx-0 md:mx-auto flex  justify-around md:justify-between items-center  ">
+            <div className="container py-4 md:py-7.5 px-2 md:px-0 mx-0 md:mx-auto flex justify-around md:justify-between items-center  ">
 
                  {/* Hamburger */}
                 <div className="flex md:hidden text-2xl text-[#4F545A]">
@@ -20,7 +20,7 @@ const Navbar = () => {
                 </div>
 
                 <ul className="hidden md:flex justify-between items-center gap-7
-                font-medium  text-base font-jakarta text-[#4F545A]" >
+                font-medium text-base font-jakarta text-[#4F545A]" >
                     <li><a className="text-[#D91B7E]" href="">Home</a></li>
                     <li><a href=""></a>Technologies</li>
                     <li><a href=""></a>Projects</li>
@@ -34,7 +34,7 @@ const Navbar = () => {
                     <button className="bg-transparent text-center  border-none shadow-none font-bold md:font-medium text-sm md:text-base font-inter md:font-jakarta text-[#4F545A]">Sign In</button>
 
                     <button className=" font-semibold md:font-medium text-sm md:text-base 
-                    text-center font-jakarta text-white rounded-full bg-[#D91B7E] hover:bg-pink-500 border-none py-1 md:py-2 px-2.5 md:px-5" >Sign Up</button>
+                    text-center font-jakarta text-white rounded-full bg-[#D91B7E] hover:bg-pink-400 border-none py-1 md:py-2 px-2.5 md:px-5" >Sign Up</button>
                 </div>
 
 

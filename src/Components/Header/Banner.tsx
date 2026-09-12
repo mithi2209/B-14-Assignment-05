@@ -15,7 +15,7 @@ const Banner = () => {
 
           <h1 className="text-center md:text-left font-inter font-bold md:font-extrabold text-3xl md:text-6xl tracking-wide ">
             Build Your Ideal <br />
-            <span className="bg-linear-to-r from-[#FF5722] via-[#D81B7E] to-[#7C3AED] bg-clip-text text-transparent ">Development Stack</span>
+            <span className="bg-brand-gradient bg-clip-text text-transparent ">Development Stack</span>
           </h1>
  
           <p className="font-jakarta text-center md:text-left text-sm md:text-lg text-[#475569FF] leading-7 mt-3 md:mt-6 w-full md:w-[54%] ">
@@ -26,9 +26,9 @@ const Banner = () => {
 
           <div className="flex gap-3 md:gap-5 justify-center md:justify-start items-center mt-6 md:mt-10">
 
-            <button className="font-inter cursor-pointer rounded-lg p-3 text-white text-sm md:text-base font-regular md:font-medium bg-linear-to-r from-[#F97316] to-[#EC4899] hover:bg-[linear-gradient(to_right,#D91B7E,#F97316)]">Explore Technologies</button>
+            <button className="font-inter cursor-pointer rounded-lg p-3 text-white text-sm md:text-base font-regular md:font-medium bg-brand-gradient hover:bg-brand-reverse-gradient">Explore Technologies</button>
 
-            <button className="font-inter text-center cursor-pointer rounded-lg py-3 px-12 text-[#374151] text-sm md:text-base font-regular md:font-medium border border-[#e5e7ebFF] hover:bg-linear-to-r from-[#F97316] to-[#EC4899] hover:text-white ">Learn More</button>
+            <button className="font-inter text-center cursor-pointer rounded-lg py-3 px-12 text-[#374151] text-sm md:text-base font-regular md:font-medium border border-[#e5e7ebFF] hover:bg-brand-gradient hover:text-white ">Learn More</button>
           </div>
 
         </div>

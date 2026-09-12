@@ -1,10 +1,16 @@
 
-import { Suspense } from 'react';
+import { Suspense, useState, type Dispatch, type SetStateAction } from 'react';
 import Footer from './Components/Footer/footer';
 import Banner from './Components/Header/Banner';
 import Navbar from './Components/Header/Navbar';
 import type { TechsDataType } from './Components/Types/DataType';
 import AllTechnologiesData from './Components/MainSections/Techs/AllTechnologiesData';
+
+interface techDataProps{
+  techDataPromise: Promise<TechsDataType[]>;
+  selectedStacks : TechsDataType[] ;
+  setSelectedStacks : Dispatch<SetStateAction<TechsDataType[]>> ;
+}
    
   const techDataFetch = async ():Promise<TechsDataType[]> => {
     const res = await fetch('/data.json');
@@ -15,6 +21,7 @@ import AllTechnologiesData from './Components/MainSections/Techs/AllTechnologies
   
 function App() {
   const techDataPromise = techDataFetch();
+  const [selectedStacks, setSelectedStacks] = useState<TechsDataType[]>([]);
    
   return (
     <>
@@ -24,8 +31,8 @@ function App() {
 
       <Suspense 
           fallback={ <span className="w-28 mx-auto my-28 flex justify-center items-center  loading loading-infinity loading-xl"></span> }>
-          <AllTechnologiesData
 
+          <AllTechnologiesData
             techDataPromise ={techDataPromise}
           >
           </AllTechnologiesData>

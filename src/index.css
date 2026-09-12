@@ -1,6 +1,24 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+@theme {
+ --background-image-brand-gradient: linear-gradient(
+  to right,
+  #f97316 0%,
+  #ec4899 50%,
+  #8b5cf6 100%
+);
+}
+
+@theme {
+  --background-image-brand-reverse-gradient: linear-gradient(
+    to right,
+    #8b5cf6 0%,
+    #ec4899 50%,
+    #f97316 100%
+  );
+}
+
 .font-jakarta{
     
     font-family: "Plus Jakarta Sans", sans-serif;

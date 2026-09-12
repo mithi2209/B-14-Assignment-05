@@ -1,16 +1,22 @@
-import React from "react";
-import { use } from 'react';
+
+import { use, useState, type Dispatch, type SetStateAction } from 'react';
 import type { TechsDataType } from "../../Types/DataType";
 import AllTechCards from "./AllTechCards";
+import StackDataCard from "../StackData/StackDataCard";
 
 
 interface techDataProps{
   techDataPromise: Promise<TechsDataType[]>;
+  selectedStacks : TechsDataType[] ;
+  setSelectedStacks : Dispatch<SetStateAction<TechsDataType[]>> ;
 }
 
 const AllTechnologiesData = ({techDataPromise}:techDataProps) => {
 
     const techData = use (techDataPromise) ;
+
+    const [selectedStacks , setSelectedStacks] = useState<TechsDataType[]>([]);
+
    
     
   return (
@@ -20,8 +26,7 @@ const AllTechnologiesData = ({techDataPromise}:techDataProps) => {
       {/* Heading part of cards */}
         <div>
               <h2 className="font-inter text-center md:text-left text-2xl md:text-4xl font-bold md:font-extrabold">
-                Explore the
-                <span className="bg-linear-to-r from-pink-500 to-violet-500 bg-clip-text text-transparent">
+                Explore the <span className="bg-brand-gradient bg-clip-text text-transparent">
                   Technologies
                 </span>
               </h2>
@@ -31,42 +36,26 @@ const AllTechnologiesData = ({techDataPromise}:techDataProps) => {
             </div>
             
             {/* All Cards Parent */}
-            <div className="grid grid-cols-12 gap-8 items-center justify-center">
+            <div className="grid grid-cols-12 gap-8 justify-center ">
 
               {/* first card-child */}
               <div className="col-span-12 md:col-span-9">
-
-                <AllTechCards   techData={techData}>
-         
+                <AllTechCards  
+                  techData={techData}
+                  selectedStacks={selectedStacks}
+                  setSelectedStacks={setSelectedStacks}
+                >
                 </AllTechCards>
-
               </div>
 
               {/* 2nd card child */}
-              <div>
-                 {/* right side */}
-              {/* <div className="col-span-12 md:col-span-3 mx-3 md:mx-0">
-
-                <div className="rounded-2xl bg-white px-6 pt-8 pb-5 shadow border border-[#f1f5f9FF]">
-                  <h4 className="font-jakarta text-base font-bold">
-                    Your Stack
-                  </h4>
-                  <p className="text-[#94a3b8FF] text-xs md:text-sm mt-1">
-                    No technologies selected yet.
-                  </p>
-
-                  <div className="border-dashed border border-[#E1E1E1] my-7  p-7 rounded-2xl">
-                    <p className="text-[#94a3b8FF] text-xs md:text-sm text-center">
-                      Your stack is empty.
-                    </p>
-                  </div>
-                  <div>
-                    <button className="btn text-[#d82c20FF] text-center w-full border border-[#ed8c85FF] rounded-lg bg-white hover:bg-red-200">
-                      Remove All
-                    </button>
-                  </div>
-                </div>
-              </div> */}
+              <div  className="col-span-12 md:col-span-3 mx-3 md:mx-0 mt-8 md:mt-16">
+                  <StackDataCard
+                    techData={techData}
+                    selectedStacks={selectedStacks}
+                    setSelectedStacks={setSelectedStacks}
+                  >
+                  </StackDataCard>
               </div>
 
             </div>
