@@ -15,7 +15,7 @@ const Navbar = () => {
                     <RxHamburgerMenu />
                 </div>
 
-                <div className="ml-7">
+                <div className="ml-10">
                     <img className="w-[90%] md:w-full " src={Logo} alt="Nav logo" />
                 </div>
 
