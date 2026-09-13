@@ -45,6 +45,7 @@
 
 ## Vi. What is conditional rendering? Show one place you used it 
  - Conditional rendering means showing different UI based on a condition. I used it to show an empty-stack message when the list has no items
+ - **In my project, I used conditional rendering in the Your Stack component. If no technology is selected, it shows “Your stack is empty.” Otherwise, it displays the selected technology cards.**
 
  ## Vii. How do you pass data from a parent to a child, and how does a child send something back to the parent?
 

@@ -1,5 +1,5 @@
 
-import { use, useState, type Dispatch, type SetStateAction } from 'react';
+import { use, type Dispatch, type SetStateAction } from 'react';
 import type { TechsDataType } from "../../Types/DataType";
 import AllTechCards from "./AllTechCards";
 import StackDataCard from "../StackData/StackDataCard";
@@ -11,13 +11,13 @@ interface techDataProps{
   setSelectedStacks : Dispatch<SetStateAction<TechsDataType[]>> ;
 }
 
-const AllTechnologiesData = ({techDataPromise}:techDataProps) => {
+const AllTechnologiesData = (
+    { techDataPromise ,
+      selectedStacks ,
+      setSelectedStacks} :techDataProps) => {
 
-    const techData = use (techDataPromise) ;
+    const techData = use(techDataPromise) ;
 
-    const [selectedStacks , setSelectedStacks] = useState<TechsDataType[]>([]);
-
-   
     
   return (
 
@@ -40,7 +40,8 @@ const AllTechnologiesData = ({techDataPromise}:techDataProps) => {
 
               {/* first card-child */}
               <div className="col-span-12 md:col-span-9">
-                <AllTechCards  
+                <AllTechCards 
+                 
                   techData={techData}
                   selectedStacks={selectedStacks}
                   setSelectedStacks={setSelectedStacks}
@@ -51,7 +52,6 @@ const AllTechnologiesData = ({techDataPromise}:techDataProps) => {
               {/* 2nd card child */}
               <div  className="col-span-12 md:col-span-3 mx-3 md:mx-0 mt-8 md:mt-16">
                   <StackDataCard
-                    techData={techData}
                     selectedStacks={selectedStacks}
                     setSelectedStacks={setSelectedStacks}
                   >

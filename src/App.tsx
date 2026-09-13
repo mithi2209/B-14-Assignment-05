@@ -22,6 +22,7 @@ interface techDataProps{
 function App() {
   const techDataPromise = techDataFetch();
   const [selectedStacks, setSelectedStacks] = useState<TechsDataType[]>([]);
+
    
   return (
     <>
@@ -33,7 +34,10 @@ function App() {
           fallback={ <span className="w-28 mx-auto my-28 flex justify-center items-center  loading loading-infinity loading-xl"></span> }>
 
           <AllTechnologiesData
+
             techDataPromise ={techDataPromise}
+            selectedStacks={selectedStacks}
+            setSelectedStacks={setSelectedStacks}
           >
           </AllTechnologiesData>
       </Suspense>

@@ -8,7 +8,7 @@ const Navbar = () => {
     return (
         <div className="sticky top-0 bg-white">
 
-            <div className="container py-4 md:py-7.5 px-2 md:px-0 mx-0 md:mx-auto flex justify-around md:justify-between items-center  ">
+            <div className="container py-4 md:py-7.5  px-2 md:px-0 mx-0 md:mx-auto flex justify-around md:justify-between items-center  ">
 
                  {/* Hamburger */}
                 <div className="flex md:hidden text-2xl text-[#4F545A]">
