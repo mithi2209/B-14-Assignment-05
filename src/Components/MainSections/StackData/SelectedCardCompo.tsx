@@ -1,4 +1,4 @@
-import React, { type Dispatch, type SetStateAction } from "react";
+import { type Dispatch, type SetStateAction } from "react";
 import type { TechsDataType } from "../../Types/DataType";
 import { RxCross1 } from "react-icons/rx";
 import { toast} from "react-toastify";

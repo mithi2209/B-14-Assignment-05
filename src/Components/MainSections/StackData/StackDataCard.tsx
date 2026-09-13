@@ -1,4 +1,4 @@
-import React, { type Dispatch, type SetStateAction } from "react";
+import { type Dispatch, type SetStateAction } from "react";
 import type { TechsDataType } from "../../Types/DataType";
 import SelectedCardCompo from "./SelectedCardCompo";
 import { toast } from "react-toastify";

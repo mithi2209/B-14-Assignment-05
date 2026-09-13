@@ -46,7 +46,17 @@
 ## Vi. What is conditional rendering? Show one place you used it 
  - Conditional rendering means showing different UI based on a condition. I used it to show an empty-stack message when the list has no items
  - **In my project, I used conditional rendering in the Your Stack component. If no technology is selected, it shows “Your stack is empty.” Otherwise, it displays the selected technology cards.**
+ - - if(selectedStacks.length === 0){
+        return (
+            <div className="border-dashed border border-[#E1E1E1] my-7  p-7 rounded-2xl">
+                <p className="text-[#94a3b8FF] text-xs md:text-sm text-center">
+                Your stack is empty.
+                </p>
+            </div>
+        )
+    }
+    - - I also used conditional rendering to show the “Remove All” button only when at least one technology has been added to the stack.
 
  ## Vii. How do you pass data from a parent to a child, and how does a child send something back to the parent?
 
-  - A parent passes data down through props. A child sends data back by calling a callback function that the parent passed down as a pro
+  - A parent passes data down through props. A child sends data back by calling a callback function that the parent passed down as a props

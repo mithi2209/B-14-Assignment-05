@@ -1,4 +1,4 @@
-import React from "react";
+
 import Logo from "../../assets/logo-text.png";
 import { RxHamburgerMenu } from "react-icons/rx";
 
