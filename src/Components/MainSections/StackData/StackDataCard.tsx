@@ -24,12 +24,12 @@ const StackDataCard = ({
 
     return (
 
-        <div className="rounded-2xl bg-white px-6 pt-8 pb-5 shadow border border-[#f1f5f9FF]">
+        <div className="rounded-2xl bg-white px-6 py-8.5 shadow border border-[#f1f5f9FF]">
 
-                  <h4 className="font-jakarta text-base font-bold">
+                  <h4 className="font-jakarta text-lg md:text-lg lg:text-xl font-bold">
                     Your Stack
                   </h4>
-                  <p className="text-[#94a3b8FF] text-xs md:text-sm mt-1">
+                  <p className="text-[#94a3b8FF] text-sm md:text-base lg:text-base mt-1 lg:mt-2">
 
                        {selectedStacks.length === 0
                           ? "No Technologies Selected yet."

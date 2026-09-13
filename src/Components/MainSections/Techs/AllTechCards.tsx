@@ -46,7 +46,7 @@ const AllTechCards = ({
   return (
     // {/* left-side parent */}
 
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-5 items-center mt-8 md:mt-16 mx-3 md:mx-0">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-7 items-center mt-9 md:mt-12 lg:mt-16 mx-3 md:mx-0 lg:mx-0">
 
       {techData.map((techs: TechsDataType) => {
 
@@ -59,10 +59,47 @@ const AllTechCards = ({
             {/* left-side-Cads */}
             <div className="space-y-5 shadow border border-[#f1f5f9FF] rounded-2xl p-7 ">
               <div className="flex justify-between items-center">
-                <img className="w-[10%]" src={techs.icon} alt="" />
+                <img className="w-[14%]" src={techs.icon} alt="" />
 
-                <button className="bg-[#F0F9FF] text-[#0EA5E9] rounded-full px-2 py-1.5 text-center font-jakarta font-semibold text-xs md:text-sm">
+                <button className={`bg-[#F0F9FF] text-[#0EA5E9] rounded-full px-3 py-2 text-center font-jakarta font-bold md:font-semibold text-xs md:text-sm
+
+                      ${techs.badge === "Popular" 
+                      ? "bg-[#EAFCFF] border border-[#E0F2FE] text-[#0284C7]"
+
+                      : techs.badge === "Robust"
+                      ? "bg-[#EAFCFF] border border-[#E0F2FE] text-[#0284C7]"
+
+                      : techs.badge === "Essential"
+                      ? "bg-[#EAFCFF] border border-[#E0F2FE] text-[#0284C7]"
+
+                      : techs.badge === "Top SQL"
+                      ? "bg-[#EFF6FF] border border-[#DBEAFE] text-[#2563EB]"
+
+                      : techs.badge === "Versatile"
+                      ? "bg-green-50 border border-[#D1FAE5] text-green-600"
+
+                      : techs.badge === "Fast"
+                      ? "bg-orange-50 border border-[#FFEDD5] text-orange-600"
+
+                      :techs.badge === "SSR / Edge"
+                      ?"bg-[#f3e8ffFF] border border-[#ca9af7] text-[#7e22ceFF]"
+
+                      :techs.badge === "Standard"
+                      ?"bg-green-50 border border-[#D1FAE5] text-green-600"
+
+                      :techs.badge === "Cache"
+                      ?"bg-[#FEF2F2] border border-[#FEE2E2] text-[#DC2626]"
+
+                      :techs.badge === "Ubiquitous"
+                      ?"bg-[#FFFBEB] border border-[#FEF3C7] text-[#D97706]"
+                      
+                      :techs.badge === "Modern"
+                      ?"bg-[#ECFEFF] border border-[#CFFAFE] text-[#0891B2]"
+                      :"bg-[#EAFCFF] border border-[#E0F2FE] text-[#0284C7]"
+                }`}>
+
                   {techs.badge}
+
                 </button>
               </div>
 
@@ -71,7 +108,7 @@ const AllTechCards = ({
               <p className="text-[#64748B] text-sm   ">{techs.description}</p>
 
               <div className="font-jakarta flex items-center justify-between ">
-                <button className="rounded bg-[#F1F5F9] text-[#475569]  text-sm px-2 py-1.5 font-medium">
+                <button className="rounded bg-[#F1F5F9] text-[#475569]  text-sm px-3 py-1.5 font-medium">
                   {techs.category}
                 </button>
                 <p className="text-[#64748B] text-sm font-medium ">
@@ -116,7 +153,7 @@ const AllTechCards = ({
           </div>
         );
       })}
-      ;
+      
     </div>
   );
 };

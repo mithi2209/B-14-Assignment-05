@@ -7,21 +7,21 @@ const footer = () => {
 
         <div className="divider m-0 h-0 "></div>
 
-        <div className="container px-3 md:px-0 mx-0 md:mx-auto pb-8 md:pb-12">
+        <div className="container px-3 md:px-6 lg:px-0 mx-0 md:mx-auto pb-8 md:pb-12">
             {/* child-1 */}
-            <div className="flex items-center py-10 md:py-20 ">
+            <div className="flex items-center py-10 md:py-16 lg:py-20 ">
 
                 <div className="flex-1">
-                    <div className="flex justify-center md:justify-start">
+                    <div className="flex justify-center md:justify-center lg:justify-start">
                         <img src={FooterLogo} alt="" />
                     </div>
 
-                    <p className="font-inter md:font-jakarta text-center md:text-left text-sm md:text-base leading-5 text-[#64748B] mt-3 w-full md:w-[50%]">
+                    <p className="font-inter md:font-jakarta text-center md:text-center mx-auto lg:mx-0 lg:text-left text-sm md:text-base leading-5 text-[#64748B] mt-3 w-full md:w-[50%]">
                         Curated tools, technologies, and resources for developers building
                         modern software.
                     </p>
 
-                    <ul className="font-inter md:font-jakarta text-center md:text-left text-sm md:text-base font-medium md:font-regular leading-4 text-[#475569] flex justify-center md:justify-start items-center gap-5 mt-3 md:mt-6 ">
+                    <ul className="font-inter md:font-jakarta text-center md:text-center lg:text-left text-sm md:text-base font-medium md:font-regular leading-4 text-[#475569] flex justify-center lg:justify-start items-center gap-5 mt-3 md:mt-6 ">
                         
                         <li>
                             <a href="">GitHub
@@ -41,7 +41,7 @@ const footer = () => {
 
                 </div>
 
-                <div className="hidden flex-1 md:grid grid-cols-3 gap-20 items-start ">
+                <div className="hidden md:hidden lg:flex-1 lg:grid grid-cols-3 gap-20 items-start ">
                     <div>
                         <h4 className="text-[#0F172A] text-base font-bold font-jakarta mb-3">
                             PRODUCT
@@ -96,7 +96,7 @@ const footer = () => {
             </div>
 
             {/* child-2 */}
-            <div className="bg-white border border-[#f3f4f6FF] p-4 flex items-center justify-between">
+            <div className="bg-white shadow-xs border border-[#f3f4f6FF] p-4 md:p-5 flex items-center justify-between">
                 <div>
                     <p className="text-[#94A3B8] text-xs font-jakarta">© 2026 Dev Stack. All rights reserved.
                     </p>

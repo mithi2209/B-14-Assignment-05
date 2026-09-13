@@ -37,7 +37,7 @@
     "icon": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/nextjs.png",
     "rating": 4.9,
     "difficulty": "Intermediate",
-    "badge": "Popular"
+    "badge": "SSR / Edge"
   },
   {
     "id": "nodejs",

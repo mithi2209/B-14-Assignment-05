@@ -27,7 +27,7 @@ function App() {
       <Banner></Banner>  
 
       <Suspense 
-          fallback={ <span className="w-28 mx-auto my-28 flex justify-center items-center  loading loading-infinity loading-xl"></span> }>
+          fallback={ <span className="w-16 md:w-20 lg:w-28 mx-auto my-16 md:my-20 lg:my-28 flex justify-center items-center  loading loading-infinity loading-base md:loading-lg lg:loading-xl"></span> }>
 
           <AllTechnologiesData
 

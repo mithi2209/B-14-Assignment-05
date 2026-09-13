@@ -8,10 +8,10 @@ const Navbar = () => {
     return (
         <div className="sticky top-0 bg-white">
 
-            <div className="container py-4 md:py-7.5  px-2 md:px-0 mx-0 md:mx-auto flex justify-around md:justify-between items-center  ">
+            <div className="container py-4 md:py-5 lg:py-6  px-2 md:px-6 lg:px-0 mx-0 md:mx-auto flex justify-around md:justify-between items-center  ">
 
                  {/* Hamburger */}
-                <div className="flex md:hidden text-2xl text-[#4F545A]">
+                <div className="flex md:flex lg:hidden text-2xl md:text-3xl text-[#4F545A]">
                     <RxHamburgerMenu />
                 </div>
 
@@ -19,7 +19,7 @@ const Navbar = () => {
                     <img className="w-[90%] md:w-full " src={Logo} alt="Nav logo" />
                 </div>
 
-                <ul className="hidden md:flex justify-between items-center gap-7
+                <ul className="hidden md:hidden lg:flex justify-between items-center gap-7
                 font-medium text-base font-jakarta text-[#4F545A]" >
                     <li><a className="text-[#D91B7E]" href="">Home</a></li>
                     <li><a href=""></a>Technologies</li>
