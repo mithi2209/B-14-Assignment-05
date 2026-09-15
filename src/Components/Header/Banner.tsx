@@ -7,7 +7,7 @@ const Banner = ()=> {
 
     <div className="">
 
-      <div className="container px-2 md:px-0 mx-0 md:mx-auto flex flex-col md:flex-col lg:flex-row justify-between items-center pt-14 md:pt-16 lg:pt-20 pb-0 md:pb-0 lg:pb-20 bg-white">
+      <div className="container px-2 md:px-0 mx-0 md:mx-auto flex flex-col md:flex-col lg:flex-row justify-between items-center pt-14 md:pt-16 lg:pt-20 pb-0 md:pb-0 lg:pb-20 ">
 
         {/* Banner Left Part */}
 

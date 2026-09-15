@@ -24,7 +24,7 @@ const StackDataCard = ({
 
     return (
 
-        <div className="rounded-2xl bg-white px-6 py-8.5 shadow border border-[#f1f5f9FF]">
+        <div className="rounded-2xl  px-6 py-8.5 shadow border border-[#f1f5f9FF]">
 
                   <h4 className="font-jakarta text-lg md:text-lg lg:text-xl font-bold">
                     Your Stack

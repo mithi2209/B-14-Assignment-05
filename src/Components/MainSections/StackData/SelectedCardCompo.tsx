@@ -25,7 +25,7 @@ const SelectedCardCompo = ({
 
     if(selectedStacks.length === 0){
         return (
-            <div className="border-dashed border bg-white border-[#E1E1E1] my-7  p-7 rounded-2xl">
+            <div className="border-dashed border border-[#E1E1E1] my-7  p-7 rounded-2xl">
                 <p className="text-[#94a3b8FF] text-sm md:text-base lg:text-base text-center">
                 Your stack is empty.
                 </p>

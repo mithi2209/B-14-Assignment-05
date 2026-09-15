@@ -21,7 +21,7 @@ const AllTechnologiesData = (
     
   return (
 
-      <div className="container px-3 md:px-6 lg:px-0 mx-0 md:mx-auto pb-10 md:pb-20 bg-white">
+      <div className="container px-3 md:px-6 lg:px-0 mx-0 md:mx-auto pb-10 md:pb-20 ">
 
       {/* Heading part of cards */}
         <div>

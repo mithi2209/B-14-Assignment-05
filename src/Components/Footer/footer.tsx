@@ -3,11 +3,11 @@ import FooterLogo from "../../assets/logo-text.png";
 
 const footer = () => {
   return (
-    <div className="bg-white ">
+    <div className=" ">
 
         <div className="divider m-0 h-0 "></div>
 
-        <div className="container bg-white px-3 md:px-6 lg:px-0 mx-0 md:mx-auto pb-8 md:pb-12">
+        <div className="container  px-3 md:px-6 lg:px-0 mx-0 md:mx-auto pb-8 md:pb-12">
             {/* child-1 */}
             <div className="flex items-center py-10 md:py-16 lg:py-20 ">
 
@@ -96,7 +96,7 @@ const footer = () => {
             </div>
 
             {/* child-2 */}
-            <div className="bg-white shadow-xs border border-[#f3f4f6FF] p-4 md:p-5 flex items-center justify-between">
+            <div className=" shadow-xs border border-[#f3f4f6FF] p-4 md:p-5 flex items-center justify-between">
                 <div>
                     <p className="text-[#94A3B8] text-xs font-jakarta">© 2026 Dev Stack. All rights reserved.
                     </p>

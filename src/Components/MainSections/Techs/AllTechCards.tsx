@@ -57,7 +57,7 @@ const AllTechCards = ({
         return (
           <div key={techs.name}>
             {/* left-side-Cads */}
-            <div className="space-y-5 shadow bg-white border border-[#f1f5f9FF] rounded-2xl p-7 ">
+            <div className="space-y-5 shadow  border border-[#f1f5f9FF] rounded-2xl p-7 ">
               <div className="flex justify-between items-center">
                 <img className="w-[14%]" src={techs.icon} alt="" />
 

@@ -1,14 +1,18 @@
 @import "tailwindcss";
-@plugin "daisyui";
+
+@plugin "daisyui"{
+    themes: light --default;
+} ;
 
 @theme {
- --background-image-brand-gradient: linear-gradient(
+  --brand-gradient: linear-gradient(
   to right,
   #f97316 0%,
   #ec4899 50%,
   #8b5cf6 100%
 );
 }
+
 
 @theme {
   --background-image-brand-reverse-gradient: linear-gradient(
@@ -18,6 +22,14 @@
     #f97316 100%
   );
 }
+
+
+
+@utility bg-brand-gradient {
+  background-image: var(--brand-gradient);
+}
+
+
 
 .font-jakarta{
     
