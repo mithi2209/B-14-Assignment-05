@@ -7,7 +7,7 @@ const footer = () => {
 
         <div className="divider m-0 h-0 "></div>
 
-        <div className="container px-3 md:px-6 lg:px-0 mx-0 md:mx-auto pb-8 md:pb-12">
+        <div className="container bg-white px-3 md:px-6 lg:px-0 mx-0 md:mx-auto pb-8 md:pb-12">
             {/* child-1 */}
             <div className="flex items-center py-10 md:py-16 lg:py-20 ">
 
